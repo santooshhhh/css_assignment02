@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body {
+    font-family: 'Indie Flower', cursive;
+    background-image: url('1.jpg');
+    background-color: rgba(202, 195, 195, 0.7);
+    background-size: cover;
+    color: #ffffff; /* i use light text color for better readability on dark bg */
+    text-shadow: -1px -1px 0 rgb(31, 5, 5);/* i use text shadow for better readability on dark bg*/
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed; /* i kept the header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);/* i use dark header background */
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    z-index: 999; }
+
+main {
+    padding: 82px 19px 20px; 
+}
+
+section {
+    margin-bottom: 41px;
+    text-align: center; 
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.chorus {
+    font-style: italic; /* i use italics for chorus */
+    
+
+}
+
+footer {
+    background-color: #1a1a1a; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.lyric{
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #fff; 
+    padding: 20px; 
+    margin: 20px;
+} 
